@@ -1,0 +1,61 @@
+# Dossiers de compilation
+build-*/
+build/
+*.build/
+Debug/
+Release/
+x64/
+x86/
+*.pro.user*
+*.user
+*.user.*
+
+# Fichiers générés par Qt
+Makefile*
+*.make
+*.o
+*.obj
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qrc.d
+*.ts
+*.qm
+
+# Fichiers d'exécution
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Fossiles de Qt Creator
+CMakeLists.txt.user*
+CMakeLists.txt.user.*
+
+# Cache et fichiers temporaires
+.cache/
+*.autosave
+*.swp
+*.swo
+*.~*
+*.bak
+
+# Fichiers de dépendances
+*.d
+*.pdb
+*.idb
+*.ilk
+
+# Documentation générée
+doc/html/
+doc/latex/
+doxygen/
+
+# Dépendances externes
+3rdparty/
+external/
+libs/
